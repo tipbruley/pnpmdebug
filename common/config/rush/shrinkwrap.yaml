@@ -1,0 +1,308 @@
+dependencies:
+  '@rush-temp/newtestpnpm': 'file:projects/newtestpnpm.tgz'
+  '@rush-temp/oldtestpnpm': 'file:projects/oldtestpnpm.tgz'
+  office-ui-fabric-react: 5.64.4
+packages:
+  /@microsoft/load-themed-styles/1.7.43:
+    dev: false
+    resolution:
+      integrity: sha1-V7VJ9XTs6yQRJZxhrRwYU70B0wY=
+  /@uifabric/icons/5.6.0:
+    dependencies:
+      '@uifabric/styling': 5.20.0
+      tslib: 1.9.0
+    dev: false
+    resolution:
+      integrity: sha512-yF7px9hFI6Pif/cvA1WLVNlXrdFU4ap9ivng17JTJ8Lt709NyuSyhvrrFiGhRnBlRhkBmOGoJHrgtT494TKLYQ==
+  /@uifabric/merge-styles/5.13.0:
+    dependencies:
+      tslib: 1.9.0
+    dev: false
+    resolution:
+      integrity: sha512-F45U4pVJbXYmP4pSXdSGa7uq9JhsaYovuA1COb7wXCgv4NWIRqdofTLGFF6rvVddK4hXxWN55ANo2DZUCU+CgA==
+  /@uifabric/styling/5.20.0:
+    dependencies:
+      '@microsoft/load-themed-styles': 1.7.43
+      '@uifabric/merge-styles': 5.13.0
+      '@uifabric/utilities': 5.19.1
+      tslib: 1.9.0
+    dev: false
+    resolution:
+      integrity: sha512-kyb2zzW7731jWNM5IGOGOrtWV0Vm0Gricie7XO3Jy2/pc0JfYOJa2blqhr2MSVscEg5lIkqG3SI2+OJO2obYKQ==
+  /@uifabric/utilities/5.19.1:
+    dependencies:
+      '@microsoft/load-themed-styles': 1.7.43
+      '@uifabric/merge-styles': 5.13.0
+      prop-types: 15.6.1
+      tslib: 1.9.0
+    dev: false
+    peerDependencies:
+      react: ^0.14.9 || ^15.0.1-0 || ^16.0.0-0
+      react-dom: ^0.14.9 || ^15.0.1-0 || ^16.0.0-0
+    resolution:
+      integrity: sha512-dtM9MjMjotE5gyR7OhYstsxolaPLLCY/W1xdaXQxdVqu/iEFAZVtMK35Qt2IaOcLFwd4kZyML1gBNwe3nQX+cw==
+  /@uifabric/utilities/5.19.1/react-dom@15.6.2+react@15.6.2:
+    dependencies:
+      '@microsoft/load-themed-styles': 1.7.43
+      '@uifabric/merge-styles': 5.13.0
+      prop-types: 15.6.1
+      react: 15.6.2
+      react-dom: /react-dom/15.6.2/react@15.6.2
+      tslib: 1.9.0
+    dev: false
+    id: registry.npmjs.org/@uifabric/utilities/5.19.1
+    peerDependencies:
+      react: ^0.14.9 || ^15.0.1-0 || ^16.0.0-0
+      react-dom: ^0.14.9 || ^15.0.1-0 || ^16.0.0-0
+    resolution:
+      integrity: sha512-dtM9MjMjotE5gyR7OhYstsxolaPLLCY/W1xdaXQxdVqu/iEFAZVtMK35Qt2IaOcLFwd4kZyML1gBNwe3nQX+cw==
+  /@uifabric/utilities/5.19.1/react-dom@16.2.0+react@16.2.0:
+    dependencies:
+      '@microsoft/load-themed-styles': 1.7.43
+      '@uifabric/merge-styles': 5.13.0
+      prop-types: 15.6.1
+      react: 16.2.0
+      react-dom: /react-dom/16.2.0/react@16.2.0
+      tslib: 1.9.0
+    dev: false
+    id: registry.npmjs.org/@uifabric/utilities/5.19.1
+    peerDependencies:
+      react: ^0.14.9 || ^15.0.1-0 || ^16.0.0-0
+      react-dom: ^0.14.9 || ^15.0.1-0 || ^16.0.0-0
+    resolution:
+      integrity: sha512-dtM9MjMjotE5gyR7OhYstsxolaPLLCY/W1xdaXQxdVqu/iEFAZVtMK35Qt2IaOcLFwd4kZyML1gBNwe3nQX+cw==
+  /asap/2.0.6:
+    dev: false
+    resolution:
+      integrity: sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
+  /core-js/1.2.7:
+    dev: false
+    resolution:
+      integrity: sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=
+  /create-react-class/15.6.3:
+    dependencies:
+      fbjs: 0.8.16
+      loose-envify: 1.3.1
+      object-assign: 4.1.1
+    dev: false
+    resolution:
+      integrity: sha512-M+/3Q6E6DLO6Yx3OwrWjwHBnvfXXYA7W+dFjt/ZDBemHO1DDZhsalX/NUtnTYclN6GfnBDRh4qRHjcDHmlJBJg==
+  /encoding/0.1.12:
+    dependencies:
+      iconv-lite: 0.4.19
+    dev: false
+    resolution:
+      integrity: sha1-U4tm8+5izRq1HsMjgp0flIDHS+s=
+  /fbjs/0.8.16:
+    dependencies:
+      core-js: 1.2.7
+      isomorphic-fetch: 2.2.1
+      loose-envify: 1.3.1
+      object-assign: 4.1.1
+      promise: 7.3.1
+      setimmediate: 1.0.5
+      ua-parser-js: 0.7.17
+    dev: false
+    resolution:
+      integrity: sha1-XmdDL1UNxBtXK/VYR7ispk5TN9s=
+  /iconv-lite/0.4.19:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-oTZqweIP51xaGPI4uPa56/Pri/480R+mo7SeU+YETByQNhDG55ycFyNLIgta9vXhILrxXDmF7ZGhqZIcuN0gJQ==
+  /is-stream/1.1.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
+  /isomorphic-fetch/2.2.1:
+    dependencies:
+      node-fetch: 1.7.3
+      whatwg-fetch: 2.0.3
+    dev: false
+    resolution:
+      integrity: sha1-YRrhrPFPXoH3KVB0coGf6XM1WKk=
+  /js-tokens/3.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-mGbfOVECEw449/mWvOtlRDIJwls=
+  /loose-envify/1.3.1:
+    dependencies:
+      js-tokens: 3.0.2
+    dev: false
+    resolution:
+      integrity: sha1-0aitM/qc4OcT1l/dCsi3SNR4yEg=
+  /node-fetch/1.7.3:
+    dependencies:
+      encoding: 0.1.12
+      is-stream: 1.1.0
+    dev: false
+    resolution:
+      integrity: sha512-NhZ4CsKx7cYm2vSrBAr2PvFOe6sWDf0UYLRqA6svUYg7+/TSfVAu49jYC4BvQ4Sms9SZgdqGBgroqfDhJdTyKQ==
+  /object-assign/4.1.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+  /office-ui-fabric-react/5.64.4:
+    dependencies:
+      '@microsoft/load-themed-styles': 1.7.43
+      '@uifabric/icons': 5.6.0
+      '@uifabric/merge-styles': 5.13.0
+      '@uifabric/styling': 5.20.0
+      '@uifabric/utilities': 5.19.1
+      prop-types: 15.6.1
+      tslib: 1.9.0
+    dev: false
+    peerDependencies:
+      react: ^0.14.9 || ^15.0.1-0 || ^16.0.0-0
+      react-dom: ^0.14.9 || ^15.0.1-0 || ^16.0.0-0
+    resolution:
+      integrity: sha512-3C9RksNmfvGlwav78gYViP80NA+sBRwIdFHNC1qwTg9qf64DjZHqtUWOSv7GmQiB9gLGfmp24fpMB12IcKVZBA==
+  /office-ui-fabric-react/5.64.4/react-dom@15.6.2+react@15.6.2:
+    dependencies:
+      '@microsoft/load-themed-styles': 1.7.43
+      '@uifabric/icons': 5.6.0
+      '@uifabric/merge-styles': 5.13.0
+      '@uifabric/styling': 5.20.0
+      '@uifabric/utilities': /@uifabric/utilities/5.19.1/react-dom@15.6.2+react@15.6.2
+      prop-types: 15.6.1
+      react: 15.6.2
+      react-dom: /react-dom/15.6.2/react@15.6.2
+      tslib: 1.9.0
+    dev: false
+    id: registry.npmjs.org/office-ui-fabric-react/5.64.4
+    peerDependencies:
+      react: ^0.14.9 || ^15.0.1-0 || ^16.0.0-0
+      react-dom: ^0.14.9 || ^15.0.1-0 || ^16.0.0-0
+    resolution:
+      integrity: sha512-3C9RksNmfvGlwav78gYViP80NA+sBRwIdFHNC1qwTg9qf64DjZHqtUWOSv7GmQiB9gLGfmp24fpMB12IcKVZBA==
+  /office-ui-fabric-react/5.64.4/react-dom@16.2.0+react@16.2.0:
+    dependencies:
+      '@microsoft/load-themed-styles': 1.7.43
+      '@uifabric/icons': 5.6.0
+      '@uifabric/merge-styles': 5.13.0
+      '@uifabric/styling': 5.20.0
+      '@uifabric/utilities': /@uifabric/utilities/5.19.1/react-dom@16.2.0+react@16.2.0
+      prop-types: 15.6.1
+      react: 16.2.0
+      react-dom: /react-dom/16.2.0/react@16.2.0
+      tslib: 1.9.0
+    dev: false
+    id: registry.npmjs.org/office-ui-fabric-react/5.64.4
+    peerDependencies:
+      react: ^0.14.9 || ^15.0.1-0 || ^16.0.0-0
+      react-dom: ^0.14.9 || ^15.0.1-0 || ^16.0.0-0
+    resolution:
+      integrity: sha512-3C9RksNmfvGlwav78gYViP80NA+sBRwIdFHNC1qwTg9qf64DjZHqtUWOSv7GmQiB9gLGfmp24fpMB12IcKVZBA==
+  /promise/7.3.1:
+    dependencies:
+      asap: 2.0.6
+    dev: false
+    resolution:
+      integrity: sha512-nolQXZ/4L+bP/UGlkfaIujX9BKxGwmQ9OT4mOt5yvy8iK1h3wqTEJCijzGANTCCl9nWjY41juyAn2K3Q1hLLTg==
+  /prop-types/15.6.1:
+    dependencies:
+      fbjs: 0.8.16
+      loose-envify: 1.3.1
+      object-assign: 4.1.1
+    dev: false
+    resolution:
+      integrity: sha512-4ec7bY1Y66LymSUOH/zARVYObB23AT2h8cf6e/O6ZALB/N0sqZFEx7rq6EYPX2MkOdKORuooI/H5k9TlR4q7kQ==
+  /react-dom/15.6.2/react@15.6.2:
+    dependencies:
+      fbjs: 0.8.16
+      loose-envify: 1.3.1
+      object-assign: 4.1.1
+      prop-types: 15.6.1
+      react: 15.6.2
+    dev: false
+    id: registry.npmjs.org/react-dom/15.6.2
+    peerDependencies:
+      react: ^15.6.2
+    resolution:
+      integrity: sha1-Qc+t9pO3V/rycIRDodH9WgK+9zA=
+  /react-dom/16.2.0/react@16.2.0:
+    dependencies:
+      fbjs: 0.8.16
+      loose-envify: 1.3.1
+      object-assign: 4.1.1
+      prop-types: 15.6.1
+      react: 16.2.0
+    dev: false
+    id: registry.npmjs.org/react-dom/16.2.0
+    peerDependencies:
+      react: ^16.0.0
+    resolution:
+      integrity: sha512-zpGAdwHVn9K0091d+hr+R0qrjoJ84cIBFL2uU60KvWBPfZ7LPSrfqviTxGHWN0sjPZb2hxWzMexwrvJdKePvjg==
+  /react/15.6.2:
+    dependencies:
+      create-react-class: 15.6.3
+      fbjs: 0.8.16
+      loose-envify: 1.3.1
+      object-assign: 4.1.1
+      prop-types: 15.6.1
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-26BDSrQ5z+gvEI8PURZjkIF5qnI=
+  /react/16.2.0:
+    dependencies:
+      fbjs: 0.8.16
+      loose-envify: 1.3.1
+      object-assign: 4.1.1
+      prop-types: 15.6.1
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-ZmIomM7EE1DvPEnSFAHZn9Vs9zJl5A9H7el0EGTE6ZbW9FKe/14IYAlPbC8iH25YarEQxZL+E8VW7Mi7kfQrDQ==
+  /setimmediate/1.0.5:
+    dev: false
+    resolution:
+      integrity: sha1-KQy7Iy4waULX1+qbg3Mqt4VvgoU=
+  /tslib/1.9.0:
+    dev: false
+    resolution:
+      integrity: sha512-f/qGG2tUkrISBlQZEjEqoZ3B2+npJjIf04H1wuAv9iA8i04Icp+61KRXxFdha22670NJopsZCIjhC3SnjPRKrQ==
+  /ua-parser-js/0.7.17:
+    dev: false
+    resolution:
+      integrity: sha512-uRdSdu1oA1rncCQL7sCj8vSyZkgtL7faaw9Tc9rZ3mGgraQ7+Pdx7w5mnOSF3gw9ZNG6oc+KXfkon3bKuROm0g==
+  /whatwg-fetch/2.0.3:
+    dev: false
+    resolution:
+      integrity: sha1-nITsLc9oGH/wC8ZOEnS0QhduHIQ=
+  'file:projects/newtestpnpm.tgz':
+    dependencies:
+      office-ui-fabric-react: /office-ui-fabric-react/5.64.4/react-dom@16.2.0+react@16.2.0
+      react: 16.2.0
+      react-dom: /react-dom/16.2.0/react@16.2.0
+    dev: false
+    name: '@rush-temp/newtestpnpm'
+    resolution:
+      integrity: sha512-c+K0AawEcAsVFpH7/d28sXmfm6S7SDBgAz0IOYg2wOlh0Zwjit7BRhRUo7GTGclSzNGxL+DxbqshsOFlBQ/SUw==
+      tarball: 'file:projects/newtestpnpm.tgz'
+    version: 0.0.0
+  'file:projects/oldtestpnpm.tgz':
+    dependencies:
+      office-ui-fabric-react: /office-ui-fabric-react/5.64.4/react-dom@15.6.2+react@15.6.2
+      react: 15.6.2
+      react-dom: /react-dom/15.6.2/react@15.6.2
+    dev: false
+    name: '@rush-temp/oldtestpnpm'
+    resolution:
+      integrity: sha512-vToujyQEO+zY2M0BzAJj1thOC/NuvKmuITD+rdEdM1APIfrRlsh/JDAHVgcg5vXhyMHjJ4oIP+zNRDF1qmYPBw==
+      tarball: 'file:projects/oldtestpnpm.tgz'
+    version: 0.0.0
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 4
+shrinkwrapVersion: 3
+specifiers:
+  '@rush-temp/newtestpnpm': 'file:./projects/newtestpnpm.tgz'
+  '@rush-temp/oldtestpnpm': 'file:./projects/oldtestpnpm.tgz'
+  office-ui-fabric-react: ^5.64.4

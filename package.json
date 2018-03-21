@@ -1,0 +1,19 @@
+{
+  "name": "pnpmtest",
+  "version": "1.0.0",
+  "description": "Repository containing the Office Online UX framework",
+  "license": "UNLICENSED",
+  "scripts": {
+    "postinstall": "node node_modules/@microsoft/rush/bin/rush install",
+    "build": "node node_modules/@microsoft/rush/bin/rush build --verbose",
+    "generate": "node node_modules/@microsoft/rush/bin/rush generate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://office.visualstudio.com/DefaultCollection/OC/_git/officeuipnpmtest"
+  },
+  "author": "wacux@microsoft.com",
+  "devDependencies": {
+    "@microsoft/rush": "^4.2.5"
+  }
+}

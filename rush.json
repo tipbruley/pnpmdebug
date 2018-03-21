@@ -1,0 +1,19 @@
+{
+  "pnpmVersion": "1.36.1",
+  "rushVersion": "4.3.0",
+  "nodeSupportedVersionRange": ">=8.3.0 <9.0.0",
+  "projectFolderMinDepth": 1,
+  "projectFolderMaxDepth": 999,
+  "projects": [
+    {
+      "packageName": "oldtestpnpm",
+      "projectFolder": "packages/oldreactfabric",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "newtestpnpm",
+      "projectFolder": "packages/newreactfabric",
+      "shouldPublish": true
+    }
+  ]
+}
